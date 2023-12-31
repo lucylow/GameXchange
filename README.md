@@ -1,4 +1,4 @@
-This is a scaffold for an FCL NextJS Dapp on the Flow Blockchain.
+# GameXchange 
 
 ## Features Provided
 
