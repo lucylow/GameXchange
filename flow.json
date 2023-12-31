@@ -1,0 +1,31 @@
+{
+	"contracts": {
+	  "QuickNFT": "cadence/contracts/QuickNFT.cdc"
+	},
+	"networks": {
+	  "emulator": "127.0.0.1:3569",
+	  "mainnet": "access.mainnet.nodes.onflow.org:9000",
+	  "testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+	  "emulator-account": {
+		"address": "0xf8d6e0586b0a20c7",
+		"key": {
+		  "type": "file",
+		  "location": "./emulator.key"
+		}
+	  },
+	  "testnet-account": {
+		"address": "0xf3ed24a7ceb9d8d8",
+		"key": {
+		  "type": "file",
+		  "location": "testnet-account.pkey"
+		}
+	  }
+	},
+	"deployments": {
+	  "testnet": {
+		"testnet-account": ["QuickNFT"]
+	  }
+	}
+  }
